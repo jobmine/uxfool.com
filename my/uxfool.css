@@ -1,0 +1,134 @@
+html {
+  background-color: #e5e4e5;
+  font-family: 'Ubuntu', sans-serif;
+  cursor: default;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.delay300 {
+    -webkit-animation-delay: 300;
+    -moz-animation-delay: 300;
+    animation-delay: 300;
+}
+.delay900 {
+    -webkit-animation-delay: 900;
+    -moz-animation-delay: 900;
+    animation-delay: 900;
+}
+.delay1k {
+    -webkit-animation-delay: 1000;
+    -moz-animation-delay: 1000;
+    animation-delay: 1000;
+}
+.delay1k2 {
+    -webkit-animation-delay: 1200;
+    -moz-animation-delay: 1200;
+    animation-delay: 1200;
+}
+.delay1k4 {
+    -webkit-animation-delay: 1400;
+    -moz-animation-delay: 1400;
+    animation-delay: 1400;
+}
+.delay1k6 {
+    -webkit-animation-delay: 1600;
+    -moz-animation-delay: 1600;
+    animation-delay: 1600;
+}
+.delay2k5 {
+    -webkit-animation-delay: 2500;
+    -moz-animation-delay: 2500;
+    animation-delay: 2500;
+}
+
+.complex {
+  padding-top: 20vh;
+}
+
+.pure-g [class *="pure-u"] {
+  font-family: 'Droid Sans Mono', sans-serif;
+}
+
+label {
+  text-transform: uppercase;
+  letter-spacing: 3;
+  font-size: 80%;
+  opacity: 0.3;
+}
+
+.name, .network, .inspire {
+  padding-bottom: 60px;
+}
+
+.name p {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 150%;
+  -webkit-margin-before: 0.5em;
+}
+
+.name p span {
+  font-size: 80%;
+  text-transform: uppercase;
+  opacity: .3;
+}
+
+.network ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 1em 0 0 0;
+  line-height: 1.5;
+}
+
+.network li {
+  margin: 0;
+  -webkit-transition: ease 200;
+  transition: ease 200;
+}
+
+.network li:hover {
+  margin: 0 0 0 -10px;
+  -webkit-transition: ease 400;
+  transition: ease 400;
+}
+
+.network i {
+  opacity: .7;
+}
+
+.network a {
+  text-decoration: none;
+  color: black;
+}
+
+.network li span {
+  opacity: 0.3;
+}
+
+.ribbon {
+  position: fixed;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  background-color: #3277CA;
+  -webkit-transition: ease 4000;
+  transition: ease 4000;
+}
+
+@media screen and (max-width: 600px){
+    .thin {display: block;}
+    .wide {display: none;}
+    .pure-u-5-12 {width: 80%;}
+}
+
+@media screen and (min-width: 601px){
+    .thin {display: none;}
+    .wide {display: block;}
+}
