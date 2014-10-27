@@ -49,9 +49,7 @@ html {
     animation-delay: 2500;
 }
 
-.complex {
-  padding-top: 20vh;
-}
+
 
 .pure-g [class *="pure-u"] {
   font-family: 'Droid Sans Mono', sans-serif;
@@ -126,9 +124,11 @@ label {
     .thin {display: block;}
     .wide {display: none;}
     .pure-u-5-12 {width: 80%;}
+    .complex { padding-top: 10vh; }
 }
 
 @media screen and (min-width: 601px){
     .thin {display: none;}
     .wide {display: block;}
+    .complex { padding-top: 20vh; }
 }
