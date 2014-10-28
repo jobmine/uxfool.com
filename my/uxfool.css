@@ -120,14 +120,14 @@ label {
   transition: ease 4000;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     .thin {display: block;}
     .wide {display: none;}
     .pure-u-5-12 {width: 80%;}
     .complex { padding-top: 10vh; }
 }
 
-@media screen and (min-width: 601px){
+@media screen and (min-width: 601px) {
     .thin {display: none;}
     .wide {display: block;}
     .complex { padding-top: 20vh; }
