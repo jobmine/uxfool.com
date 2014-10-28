@@ -18,6 +18,16 @@ html {
     -moz-animation-delay: 300;
     animation-delay: 300;
 }
+.delay700 {
+    -webkit-animation-delay: 700;
+    -moz-animation-delay: 700;
+    animation-delay: 700;
+}
+.delay800 {
+    -webkit-animation-delay: 800;
+    -moz-animation-delay: 800;
+    animation-delay: 800;
+}
 .delay900 {
     -webkit-animation-delay: 900;
     -moz-animation-delay: 900;
