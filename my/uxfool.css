@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Ubuntu;
+    src: url("Ubuntu-Regular.ttf");
+}
+
+@font-face {
+    font-family: DroidSansMono;
+    src: url("DroidSansMono.ttf");
+}
+
 html {
   background-color: #e5e4e5;
   font-family: 'Ubuntu', sans-serif;
@@ -62,7 +72,7 @@ html {
 
 
 .pure-g [class *="pure-u"] {
-  font-family: 'Droid Sans Mono', sans-serif;
+  font-family: 'DroidSansMono', sans-serif;
 }
 
 label {
@@ -123,6 +133,7 @@ label {
 .ribbon {
   position: fixed;
   left: 0;
+  top: 0;
   width: 5px;
   height: 100%;
   background-color: #3277CA;
@@ -131,7 +142,7 @@ label {
 }
 
 @media screen and (max-width: 600px) {
-    .thin {display: block;}
+    .thin {display: inline block;}
     .wide {display: none;}
     .pure-u-5-12 {width: 80%;}
     .complex { padding-top: 10vh; }
@@ -139,6 +150,9 @@ label {
 
 @media screen and (min-width: 601px) {
     .thin {display: none;}
-    .wide {display: block;}
+    .wide {display: inline block;}
     .complex { padding-top: 20vh; }
 }
+
+
+
