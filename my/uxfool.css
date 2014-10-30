@@ -141,6 +141,22 @@ label {
   transition: ease 4000;
 }
 
+.badge-pro {
+  padding: 1px 5px;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  background: #ccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color:#ff8833;
+  opacity: 1 !important;
+  margin-left: 5px;
+}
+
 @media screen and (max-width: 600px) {
     .thin {display: inline block;}
     .wide {display: none;}
